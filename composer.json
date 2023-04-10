@@ -1,5 +1,5 @@
 {
-    "name": "grimzy/laravel-mysql-spatial",
+    "name": "deltaspikeme/laravel-mysql-spatial",
     "description": "MySQL spatial data types extension for Laravel.",
     "scripts": {
         "test": "phpunit -c phpunit.xml.dist",
@@ -12,19 +12,22 @@
         {
             "name": "Joseph Estefane",
             "email": "estefanejoe@gmail.com"
+        },
+        {
+            "name": "Muhannad Alhariri",
+            "email": "muhannad@deltaspikeme.com"
         }
     ],
     "require": {
         "php": ">=7.3",
         "ext-pdo": "*",
         "ext-json": "*",
-        "illuminate/database": "^8.0",
         "geo-io/wkb-parser": "^1.0",
         "jmikola/geojson": "^1.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~6.5",
-        "laravel/laravel": "^8.0",
+        "phpunit/phpunit": "~10.0.19",
+        "laravel/laravel": ">=9.0",
         "doctrine/dbal": "^2.5",
         "laravel/browser-kit-testing": "^2.0",
         "mockery/mockery": "^1.3"
